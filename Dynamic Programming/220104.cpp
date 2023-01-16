@@ -2,7 +2,7 @@
 ai = 금액 i를 만들 수 있는 최소한의 화폐 개수
 k = 각 화폐의 단위
 각 화폐 단위인 k를 하나씩 확인하며
-a(i-k) 만드는 방법 존재 시 ai = min(ai, a(i-k)+1
+a(i-k) 만드는 방법 존재 시 ai = min(ai, a(i-k)+1)
 				미존재시 ai = INF
 */
 #include <bits/stdc++.h>
